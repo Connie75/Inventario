@@ -1,0 +1,6 @@
+#Descripción
+#Inventario 22 de Julio 2024 es una aplicación web desarrollada en PHP y MySQL para la gestión de inventarios, ventas, usuarios y facturas. La aplicación permite agregar, editar, eliminar y visualizar productos, ventas, usuarios y facturas. Además, incluye funcionalidades de autenticación de usuarios.
+
+#Requisitos
+#XAMPP (o cualquier otro stack de servidor web que incluya Apache, MySQL y PHP)
+#Desarrollado por [Tu Nombre]. 

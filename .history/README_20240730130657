@@ -1,0 +1,72 @@
+#Descripción
+#Inventario 22 de Julio 2024 es una aplicación web desarrollada en PHP y MySQL para la gestión de inventarios, ventas, usuarios y facturas. La aplicación permite agregar, editar, eliminar y visualizar productos, ventas, usuarios y facturas. Además, incluye funcionalidades de autenticación de usuarios.
+
+#Requisitos
+#XAMPP (o cualquier otro stack de servidor web que incluya Apache, MySQL y PHP)
+#Navegador web
+#Instalación
+#Clonar este repositorio o descargar el archivo ZIP.
+#Mover la carpeta del proyecto a la carpeta htdocs de XAMPP.
+#Iniciar Apache y MySQL desde el panel de control de XAMPP.
+#Crear una base de datos en MySQL llamada inventario.
+#Importar el archivo inventario.sql (incluido en el repositorio) en la base de datos inventario.
+#Configurar la conexión a la base de datos en el archivo includes/db.php.
+#Estructura del Proyecto
+#actions/: Contiene los archivos PHP para las acciones CRUD.
+#add_invoice.php
+#add_product.php
+#add_sale.php
+#add_user.php
+#delete_invoice.php
+#delete_product.php
+#delete_sale.php
+#delete_user.php
+#edit_invoice.php
+#edit_product.php
+#edit_sale.php
+#edit_user.php
+#login.php
+#logout.php
+#register.php
+#update_product.php
+#css/: Contiene los archivos CSS para el estilo.
+#styles.css
+#includes/: Contiene los archivos PHP de inclusión.
+#db.php: Conexión a la base de datos.
+#footer.php: Pie de página.
+#header.php: Encabezado.
+#js/: Contiene los archivos JavaScript.
+#scripts.js
+#views/: Contiene los archivos PHP para las vistas.
+#add_invoice.php
+#add_product.php
+#add_sale.php
+#add_user.php
+#dashboard.php
+#delete_product.php
+#edit_invoice.php
+#edit_product.php
+#edit_sale.php
+#edit_user.php
+#invoices.php
+#login.php
+#products.php
+#register.php
+#sales.php
+#update_product.php
+#users.php
+#view_invoice.php
+#index.php
+#Uso
+#Acceder a la aplicación en el navegador web: http://localhost/Inventario%2022%20de%20Julio%202024.
+#Iniciar sesión con las credenciales de administrador.
+#Navegar a través de las diferentes secciones de la aplicación usando el menú de navegación.
+Funcionalidades
+#Dashboard: Muestra un resumen de las actividades.
+#Productos: Gestión de productos (agregar, editar, eliminar).
+Ventas: Gestión de ventas (agregar, editar, eliminar).
+Facturas: Gestión de facturas (ver, editar, eliminar).
+Usuarios: Gestión de usuarios (agregar, editar, eliminar).
+Autenticación: Registro e inicio de sesión de usuarios.
+Autor
+Desarrollado por [Tu Nombre]. 

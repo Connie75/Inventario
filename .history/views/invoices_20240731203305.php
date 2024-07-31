@@ -39,7 +39,7 @@ if ($result === false) {
             <?php while ($factura = $result->fetch_assoc()): ?>
                 <tr>
                     <td><?php echo htmlspecialchars($factura['id']); ?></td>
-                    <td><?php echo htmlspecialchars($factura['cliente_nombre']); ?></td>
+                    <td><?php echo htmlspecialchars($factura['cliente_id_nombre']); ?></td>
                     <td><?php echo htmlspecialchars($factura['total']); ?></td>
                     <td><?php echo htmlspecialchars($factura['fecha']); ?></td>
                     <td>
